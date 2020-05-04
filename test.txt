@@ -1,0 +1,10 @@
+ Volume in drive E is New Volume
+ Volume Serial Number is 6429-696A
+
+ Directory of E:\GitWOrkd
+
+04-05-2020  22:35    <DIR>          .
+04-05-2020  22:35    <DIR>          ..
+04-05-2020  22:35                 0 test.txt
+               1 File(s)              0 bytes
+               2 Dir(s)  450,343,858,176 bytes free
