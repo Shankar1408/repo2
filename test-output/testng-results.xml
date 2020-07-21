@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="19515" started-at="2020-07-02T14:01:37 IST" finished-at="2020-07-02T14:01:57 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="19515" started-at="2020-07-02T14:01:37 IST" finished-at="2020-07-02T14:01:57 IST">
+      <class name="com.testcase.AllUseCase">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:com.testcase.AllUseCase@4493d195]" name="initialize" is-config="true" duration-ms="3508" started-at="2020-07-02T14:01:37 IST" finished-at="2020-07-02T14:01:41 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="loginPage(java.lang.String, java.lang.String)[pri:1, instance:com.testcase.AllUseCase@4493d195]" name="loginPage" duration-ms="6983" started-at="2020-07-02T14:01:41 IST" data-provider="getLoginData" finished-at="2020-07-02T14:01:48 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Tester]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[test]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPage -->
+        <test-method status="PASS" signature="orderPage(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.testcase.AllUseCase@4493d195]" name="orderPage" duration-ms="2448" started-at="2020-07-02T14:01:48 IST" data-provider="getDataForOrder" finished-at="2020-07-02T14:01:50 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[20]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[215]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[50]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[undertake]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Ecity]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Bangalore]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Karnatka]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[56245]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[4252452]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[02/02]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- orderPage -->
+        <test-method status="PASS" signature="updateOrderWithNewAddress(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:com.testcase.AllUseCase@4493d195]" name="updateOrderWithNewAddress" duration-ms="3986" started-at="2020-07-02T14:01:50 IST" data-provider="getchangeOrder" finished-at="2020-07-02T14:01:54 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Juripar]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[guwahati]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[assam]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[11/11]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateOrderWithNewAddress -->
+        <test-method status="PASS" signature="deleteOrder()[pri:4, instance:com.testcase.AllUseCase@4493d195]" name="deleteOrder" duration-ms="1530" started-at="2020-07-02T14:01:54 IST" finished-at="2020-07-02T14:01:56 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteOrder -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.testcase.AllUseCase@4493d195]" name="tearDown" is-config="true" duration-ms="595" started-at="2020-07-02T14:01:56 IST" finished-at="2020-07-02T14:01:57 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.testcase.AllUseCase -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
